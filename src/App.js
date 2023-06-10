@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { total} from './Jsdata';
+import Netflix from './Netflix';
+import Amazon from './Amazon';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+
+  //  const favse = "ntflix";
+// const Favs=()=>{
+// if ( favse === "netflix"){
+//   return<Netflix/>;
+ 
+      
+// }else{
+//   return<Amazon/>;
+// }
+// };
+
+const App=()=>(
+    <>
+    <h1 className='heading_nav'> The top {total} most popular web-series on netflix and amazon </h1>
+    
+    <Netflix/>
+    <Amazon/>
+    
+    
+    {/* <Favs/> */}
+    {/* {favse === "netflix" ? <Netflix/>: <Amazon/> } these ternary opretor works like if else   */}
+   </>
   );
-}
 
 export default App;

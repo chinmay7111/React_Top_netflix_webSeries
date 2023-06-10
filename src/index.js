@@ -1,17 +1,36 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
+import "./index.css";
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// const mydata=[
+//   {
+//     name:"chinmay",
+//     age:'21'
+//   },
+//   {
+//     name:"chinmay Ingle",
+//     age:'22'
+//   },
+//   {
+//     name:"chinmay Umakant Ingle",
+//     age:'23'
+//   }
+// ]
+
+//  mydata.map((val,i)=>{
+//   return (
+//     console.log(`ma nav is ${i} ${val.name}`, `ad m age is ${val.age}`)
+//   );
+// }
+// )
+
+// console.log(Newdata);
+
+
+ReactDOM.render(
+   <App/>
+  ,
+document.getElementById("root"));
+
