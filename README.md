@@ -1,3 +1,9 @@
+## ScreenShot
+![Web capture_16-7-2023_182846_localhost](https://github.com/chinmay7111/React_Top_netflix_webSeries/assets/106151106/c2c4639c-5ca6-4dda-a864-b75b4ab5bab8)
+![Web capture_16-7-2023_18280_localhost](https://github.com/chinmay7111/React_Top_netflix_webSeries/assets/106151106/ff530d35-f8a5-444c-a1b4-804d8343880f)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
